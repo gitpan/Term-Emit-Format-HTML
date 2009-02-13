@@ -1,13 +1,13 @@
 # Term::Emit::Format::HTML - Formats Term::Emit output into HTML
 #
-# $Id: HTML.pm 18 2009-01-31 01:44:27Z steve $
+# $Id: HTML.pm 23 2009-02-13 17:41:11Z steve $
 
 package Term::Emit::Format::HTML;
 use warnings;
 use strict;
 use 5.008;
 
-our $VERSION = '0.0.1';
+our $VERSION = '0.0.2';
 use Exporter;
 use base qw/Exporter/;
 our @EXPORT_OK = qw/format_html/;
@@ -214,7 +214,7 @@ Term::Emit::Format::HTML - Formats Term::Emit output into HTML
 
 =head1 VERSION
 
-This document describes Term::Emit::Format::HTML version 0.0.1
+This document describes Term::Emit::Format::HTML version 0.0.2
 
 
 =head1 SYNOPSIS
